@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Include FontAwesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-2xl font-bold">Game World</h1>
+            <nav class="mt-2 md:mt-0">
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Reviews</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Guides</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-80 md:h-screen"
+        style="background-image: url('./Free\ Vector\ _\ Glitch\ game\ over\ background.jpg'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
+            <h2 class="text-white text-4xl md:text-6xl font-bold text-center leading-snug">Welcome to the World Of Games
+            </h2>
+        </div>
+    </section>
+
+    <!-- Blog Content Section -->
+    <section class="container mx-auto py-8 md:py-12 px-4 md:px-0">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Blog Post -->
+            <article class="bg-white p-6 rounded-lg shadow-md">
+                <img src="./Top Best 22 Free-to-Play Android Games to Play in 2024.jpg" alt="Game Image"
+                    class="w-full h-40 md:h-48 object-cover rounded-lg mb-4">
+                <h3 class="text-xl font-semibold mb-2">Top 10 Games of 2024</h3>
+                <div class="flex flex-wrap space-x-2 mb-4">
+                    <span class="bg-blue-100 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Action</span>
+                    <span
+                        class="bg-green-100 text-green-600 text-xs font-semibold px-3 py-1 rounded-full">Adventure</span>
+                    <span
+                        class="bg-purple-100 text-purple-600 text-xs font-semibold px-3 py-1 rounded-full">Strategy</span>
+                </div>
+                <p class="text-gray-600 mb-4">Check out our picks for the top 10 games of 2024, featuring the most
+                    exciting and innovative titles across all platforms...</p>
+                <a href="https://www.gamespot.com/gallery/best-reviewed-games-2024/2900-5065/#1"
+                    class="text-blue-600 hover:underline">Read More</a>
+            </article>
+
+            <!-- Blog Post -->
+            <article class="bg-white p-6 rounded-lg shadow-md">
+                <img src="./Ghost Of Tsushima (2020).jpg" alt="Game Image"
+                    class="w-full h-40 md:h-48 object-cover rounded-lg mb-4">
+                <h3 class="text-xl font-semibold mb-2">Ultimate Guide to RPGs</h3>
+                <div class="flex flex-wrap space-x-2 mb-4">
+                    <span class="bg-red-100 text-red-600 text-xs font-semibold px-3 py-1 rounded-full">RPG</span>
+                    <span
+                        class="bg-yellow-100 text-yellow-600 text-xs font-semibold px-3 py-1 rounded-full">Guide</span>
+                </div>
+                <p class="text-gray-600 mb-4">Whether you're new to RPGs or a seasoned veteran, our ultimate guide will
+                    help you navigate the vast worlds of role-playing games...</p>
+                <a href="https://www.ageofravensgames.com/blog/ultimate-rpg-guides-what-the-what"
+                    class="text-blue-600 hover:underline">Read More</a>
+            </article>
+
+            <!-- Blog Post -->
+            <article class="bg-white p-6 rounded-lg shadow-md">
+                <img src="./download.jpg" alt="Game Image" class="w-full h-40 md:h-48 object-cover rounded-lg mb-4">
+                <h3 class="text-xl font-semibold mb-2">The Evolution of eSports</h3>
+                <div class="flex flex-wrap space-x-2 mb-4">
+                    <span
+                        class="bg-indigo-100 text-indigo-600 text-xs font-semibold px-3 py-1 rounded-full">eSports</span>
+                    <span class="bg-pink-100 text-pink-600 text-xs font-semibold px-3 py-1 rounded-full">History</span>
+                </div>
+                <p class="text-gray-600 mb-4">Explore how eSports have evolved over the years, becoming a global
+                    phenomenon with millions of fans worldwide...</p>
+                <a href="https://dailyiowan.com/2024/02/01/the-evolution-of-esports-a-historical-odyssey-and-glimpse-into-the-future/"
+                    class="text-blue-600 hover:underline">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription Section -->
+    <section class="bg-gray-100 py-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4">Subscribe to our Newsletter</h2>
+            <form action="#" method="POST"
+                class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+                <input type="email" name="email" placeholder="Enter your email" required
+                    class="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                <button type="submit"
+                    class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-300">
+                    Subscribe
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <div class="mb-4">
+                <p>&copy; 2024 Game Blog. All rights reserved.</p>
+            </div>
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="text-white hover:text-gray-300">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a href="#" class="text-white hover:text-gray-300">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="#" class="text-white hover:text-gray-300">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="#" class="text-white hover:text-gray-300">
+                    <i class="fab fa-youtube fa-lg"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="text-white hover:text-gray-300 mx-2">Privacy Policy</a>
+                <a href="#" class="text-white hover:text-gray-300 mx-2">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
